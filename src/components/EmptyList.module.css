@@ -1,0 +1,16 @@
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+  width: 100%;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.emptyList h2 {
+  font-size: 1.2rem;
+}

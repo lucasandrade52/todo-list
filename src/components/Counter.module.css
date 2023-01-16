@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--blue-500);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 50%;
+  height: 1.563rem;
+  width: 1.563rem;
+  font-size: 0.75rem;
+}
+.counted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 0.75rem;
+  height: 1.563rem;
+  width: 3.25rem;
+  font-size: 0.75rem;
+}
+
+.concluded {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 0.875rem;
+}

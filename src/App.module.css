@@ -1,0 +1,43 @@
+.wrapper {
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: calc(0px - 1.5rem - 6px) auto 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+.button {
+  background: var(--blue-700);
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.button:hover {
+  background: var(--blue-500);
+}
+
+main {
+  max-width: 70rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}

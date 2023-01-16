@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+}
+
+.radio {
+  border-radius: 50%;
+}
+
+.trash img {
+  width: 0.875rem;
+  height: 0.875rem;
+}
